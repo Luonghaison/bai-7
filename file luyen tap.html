@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var number=prompt('nhap so so nguyen to muon hien thi')
+  count=0
+  for(let a=2; count<number;a++){
+    let check=true
+    for(let i=2; i<a; i++){
+      if(a%i==0){check=false}
+    }
+    if(check) {document.write(a + ' ')
+      count++}
+  }
+
+</script>
+</body>
+</html>
